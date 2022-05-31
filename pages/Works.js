@@ -30,16 +30,19 @@ export default function Works() {
                     className={styles.worksImg}
                     height="250"
                     width="250"
+                    alt="人、もしくはどのAIを使用するかを選ぶ"
                   />
                   <Image
                     src={"/Images/jsvs-picture/run.PNG"}
                     height={250}
                     width={250}
+                    alt="実際に動かす"
                   />
                   <Image
                     src={"/Images/jsvs-picture/result.PNG"}
                     height={250}
                     width={250}
+                    alt="結果がでる"
                   />
                 </div>
                 <a href="https://github.com/Taisa1117/AIReversi">

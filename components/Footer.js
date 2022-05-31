@@ -11,19 +11,28 @@ export default function Footer() {
             <a
               href="https://www.instagram.com/taichi1117sasaki/"
               target="_blank"
+              rel="noreferrer"
             >
               <Instagram />
               Instagram
             </a>
           </li>
           <li>
-            <a href="https://github.com/Taisa1117" target="_blank">
+            <a
+              href="https://github.com/Taisa1117"
+              target="_blank"
+              rel="noreferrer"
+            >
               <GitHubIcon />
               Github
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/taichisasaki111" target="_blank">
+            <a
+              href="https://twitter.com/taichisasaki111"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Twitter />
               Twitter
             </a>
