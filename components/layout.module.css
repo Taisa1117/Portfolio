@@ -1,0 +1,5 @@
+.header {
+  grid-template:
+    "h2 ... about works contact" 50px
+    / 200px auto 1fr 1fr 1fr;
+}

@@ -1,16 +1,36 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
 a {
   color: inherit;
-  text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.header {
+  position: fixed;
+  z-index: 10;
+  background-color: rgb(58, 165, 165);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.header a {
+  text-decoration: none;
+}
+.header ul {
+  list-style: none;
+  display: grid;
+  grid-template: "about works contact" 1fr;
+}
+.header li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 0;
+}
+.about {
+  grid-area: about;
+}
+.works {
+  grid-area: works;
+}
+.contact {
+  grid-area: contact;
 }

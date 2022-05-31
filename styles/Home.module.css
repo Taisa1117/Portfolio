@@ -1,8 +1,4 @@
-.container {
-  padding: 0 2rem;
-}
-
-.main {
+/* .main {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -113,4 +109,108 @@
     width: 100%;
     flex-direction: column;
   }
+} */
+
+.container {
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.topImg {
+  opacity: 0.4;
+  left: 0;
+}
+/* header */
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: rgb(58, 165, 165);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.header a {
+  text-decoration: none;
+}
+.header ul {
+  list-style: none;
+  display: grid;
+  grid-template: "about works contact" 1fr;
+}
+.header li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 0;
+}
+.header li:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+.about {
+  grid-area: about;
+}
+.works {
+  grid-area: works;
+}
+.contact {
+  grid-area: contact;
+}
+
+/* アコーディオンメニュー */
+.header label {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .header {
+    grid-template:
+      "h2"
+      "list";
+    padding: 0;
+    margin: 0;
+    height: 120px;
+  }
+  .homeP {
+    font-size: 10px;
+  }
+  .headerH2 {
+    margin: 20px 0 0 0;
+  }
+}
+
+.homeP {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+@media (max-width: 600px) {
+  .menu_bar {
+    display: none;
+  }
+}
+.headerH2 {
+  padding-left: 10px;
+  background-color: rgb(86, 203, 146);
+}
+.footer {
+  background-color: rgb(191, 198, 198);
+  position: relative;
+  padding: 10px;
+}
+.footer ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.p_div {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 }

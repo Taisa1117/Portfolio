@@ -1,0 +1,16 @@
+.worksH1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.worksMain {
+  background-color: rgb(241, 241, 126);
+  margin: 10px;
+  padding: 50px;
+}
+/* .worksImg {
+  height: 300px;
+  width: 100%;
+} */
+.worksMain ul {
+  list-style: none;
+}
