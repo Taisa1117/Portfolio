@@ -6,11 +6,8 @@
   background-color: rgb(241, 241, 126);
   margin: 10px;
   padding: 50px;
+  height: 80vh;
 }
-/* .worksImg {
-  height: 300px;
-  width: 100%;
-} */
 .worksMain ul {
   list-style: none;
 }

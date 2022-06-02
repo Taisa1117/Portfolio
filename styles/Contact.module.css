@@ -1,0 +1,30 @@
+.contactH1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.contactMain {
+  background-color: rgb(161, 161, 118);
+  margin: 10px;
+  padding: 50px;
+  height: 80vh;
+}
+.contactTable {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.submitButton {
+  display: block;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  color: white;
+  background-color: black;
+}
+.toCenter {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  width: 300px;
+}

@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       />
       <Header />
       <div className={styles.p_div}>
-        <p className={styles.homeP}>Welcom my portfolio!</p>
+        <p className={styles.homeP}>Welcom to my portfolio!</p>
       </div>
       <Footer />
     </div>

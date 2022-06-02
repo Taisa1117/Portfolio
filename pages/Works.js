@@ -22,7 +22,7 @@ export default function Works() {
               <div className={styles.pictures}>
                 <p>
                   Javaでオセロ対戦ゲームを実装しました。
-                  複数のAIで対戦ができますが、中でもMyAIではそれぞれのマスに点数をつけて最終的に勝てるような盤面を計算します。
+                  複数のAIで対戦ができますが、中でもMyAIではそれぞれのマスに点数をつけて最終的に勝てるような盤面を計算します(必ず勝てるとは限りません…)。
                 </p>
                 <div className={styles.images}>
                   <Image
