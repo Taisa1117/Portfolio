@@ -28,6 +28,7 @@ const Contact = () => {
       method: "POST",
       body: formData,
     }).then(() => setQuery({ name: "", email: "", message: "", company: "" }));
+    alert("success send your information!");
   };
 
   return (
