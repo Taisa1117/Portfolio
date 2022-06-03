@@ -6,8 +6,11 @@
   background-color: rgb(241, 241, 126);
   margin: 10px;
   padding: 50px;
-  height: 80vh;
+  height: 100%;
 }
 .worksMain ul {
   list-style: none;
+}
+.pictures {
+  position: relative;
 }
