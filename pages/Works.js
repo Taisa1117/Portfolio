@@ -21,7 +21,7 @@ export default function Works() {
               <h3>AIオセロ</h3>
               <div className={styles.pictures}>
                 <p>
-                  Javaでオセロ対戦ゲームを実装しました。
+                  大学の課題でAIオセロを作成しました。 実装言語はJavaです。
                   複数のAIで対戦ができますが、中でもMyAIではそれぞれのマスに点数をつけて最終的に勝てるような盤面を計算します(必ず勝てるとは限りません…)。
                 </p>
                 <div className={styles.images}>
@@ -45,10 +45,30 @@ export default function Works() {
                     alt="結果がでる"
                   />
                 </div>
-                <a href="https://github.com/Taisa1117/AIReversi">
-                  ソースコード
-                </a>
               </div>
+            </li>
+
+            <li>
+              <h3>インターン活動</h3>
+              <p>
+                インターン活動ではタスク管理アプリ「facil」の開発に携わらせていただきました。
+                JavaScriptライブラリであるReactを用いて実装しました。
+                具体的にはhelpページの作成や一部コンポーネントの作成をしました。
+                ヘルプページではHeadlessCMSであるStrapiのAPIを使用して記事を取得し、さらにページ内検索ができるようにAlgoliaを用いました。
+                <br></br>
+                <br></br>
+                （現段階ではfacilはリリースされていないため写真などが掲載できません）
+              </p>
+            </li>
+
+            <li>
+              <h3>アルバイト活動</h3>
+              <p>
+                株式会社YPスイッチ様の小中学生向けプログラミング教室HALLOの講師を務めています。現在1年半携わらせていただいています。
+                ここではPlaygramという教材を用いています。
+                私はただ講師としてレッスンを提供するだけでなく、そのPlaygram内で新しく生徒向けの教材作成のお手伝いをさせていただいています。
+                また、そこでも講師がレッスンの際に用いるツールの作成にも携わらせていただいています。
+              </p>
             </li>
           </ul>
         </main>
